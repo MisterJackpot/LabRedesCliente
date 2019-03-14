@@ -9,7 +9,7 @@ public class ClienteTCPBasico {
         try {
             Socket cliente = new Socket("localhost",3000);
             System.out.println("Connection Established: ");
-            File file = new File("assets/abandoned-ancient-antique-235986.jpg");
+            File file = new File("assets/Triboar.jpg");
             byte [] mybytearray  = new byte [(int)file.length()];
             FileInputStream  fis = new FileInputStream(file);
             BufferedInputStream bis = new BufferedInputStream(fis);

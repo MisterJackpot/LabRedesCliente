@@ -11,7 +11,7 @@ public class ClienteUDPBasico {
 
         // declara socket cliente
         DatagramSocket clientSocket = new DatagramSocket();
-        File file = new File("assets/abandoned-ancient-antique-235986.jpg");
+        File file = new File("assets/Triboar.jpg");
         final ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         final DataOutputStream dataOut = new DataOutputStream(byteOut);
 
